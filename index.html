@@ -14,24 +14,35 @@
         class="facebook-logo"
         src="imgs/facebook-logo.png"
         alt="facebook logo"
-        width="150px"
+        width="200px"
       />
       <form class="facebook-login" action="">
         <div class="test form-group">
           <label
-            class="label"
+            class="label is-small"
             id="user-email-phone-label"
             for="user-email-phone"
             >Email ou telefone</label
           >
-          <input class="input is-small" type="text" id="user-email-phone" />
+          <input
+            class="input is-small is-focused"
+            type="text"
+            id="user-email-phone"
+          />
         </div>
 
         <div class="test form-group">
-          <label class="label" id="user-password-label" for="user-password"
+          <label
+            class="label is-small"
+            id="user-password-label"
+            for="user-password"
             >Senha</label
           >
-          <input class="input is-small" id="user-password" type="password" />
+          <input
+            class="input is-small is-focused"
+            id="user-password"
+            type="password"
+          />
         </div>
 
         <div class="test form-control">
@@ -40,7 +51,7 @@
             id="button-login"
             type="submit"
           >
-            Entrar
+            <strong>Entrar</strong>
           </button>
         </div>
       </form>
@@ -48,9 +59,12 @@
 
     <div class="main-content">
       <div class="left-content">
-        <p id="facebook-slogan">
-          O Facebook ajuda você a se conectar e compartilhar com as pessoas que
-          fazem parte da sua vida.
+        <p class="content" id="facebook-slogan">
+          <strong>
+            O Facebook ajuda você a se conectar e <br />
+            compartilhar com as pessoas que fazem parte <br />
+            da sua vida.
+          </strong>
         </p>
         <img
           id="facebook-networking"
@@ -59,8 +73,8 @@
         />
       </div>
       <div class="right-content">
-        <h1>Abra uma conta</h1>
-        <p class="quick-easy">É rápido e fácil.</p>
+        <h1 class="title">Abra uma conta</h1>
+        <p class="quick-easy subtitle">É rápido e fácil.</p>
         <form action="" class="subscription-form">
           <div class="person-name">
             <input
@@ -127,7 +141,13 @@
             >
           </div>
           <p id="custom-gender"></p>
-          <button id="facebook-register" type="submit">Cadastre-se</button>
+          <button
+            class="button is-success is-focused"
+            id="facebook-register"
+            type="submit"
+          >
+            <strong>Cadastre-se</strong>
+          </button>
           <p id="invalid-camp"></p>
         </form>
       </div>

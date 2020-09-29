@@ -1,6 +1,6 @@
 .top-bar {
   padding-left: 15vw;
-  padding-right: 15vw;
+  padding-right: 10vw;
   background-color: rgb(66, 103, 178);
   display: flex;
   justify-content: space-between;
@@ -14,12 +14,13 @@
 .form-group {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin-right: 10px;
 }
 
 .form-control {
   align-self: flex-end;
-  height: 43px;
+  height: 40px;
 }
 
 body {
@@ -32,6 +33,7 @@ body {
   justify-content: space-between;
   width: 70%;
   margin: auto;
+  padding: 20px;
 }
 
 .left-content {
@@ -59,4 +61,11 @@ body {
 
 .form-group label {
   color: white;
+}
+.main-content input {
+  margin: 5px;
+}
+
+#facebook-register {
+  margin: 20px;
 }
